@@ -1,10 +1,11 @@
-import { test, expect } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 
 test('EPAM Services -> Explore Our Client Work shows Client Work text', async ({ page }) => {
   await page.goto('https://www.epam.com/');
 
-  await page.getByRole('link', { name: 'Services' }).hover();
-  await page.getByRole('link', { name: 'Services' }).click();
+  const servicesMenu = page.getByRole('link', { name: 'Services' });
+  await servicesMenu.hover();
+  await servicesMenu.click();
 
   await page.getByRole('link', { name: 'Explore Our Client Work' }).click();
 
