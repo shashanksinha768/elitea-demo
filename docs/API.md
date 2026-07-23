@@ -15,15 +15,21 @@ Endpoints
     "service": "elitea-capstone-project"
   }
 
-2) (Future) POST /api/v1/items
-- Description: Create an example resource (not implemented yet)
+2) GET /api/v1/items
+- Description: List all example items stored in the database.
+- Request example:
+  curl -X GET http://localhost:8080/api/v1/items
+- Response example (200 OK):
+  [
+    {"id":1, "name":"sample"}
+  ]
+
+3) POST /api/v1/items
+- Description: Create an example item.
 - Request example:
   curl -X POST http://localhost:8080/api/v1/items -H "Content-Type: application/json" -d '{"name":"sample"}'
 - Response example (201 Created):
-  {
-    "id": 1,
-    "name": "sample"
-  }
+  {"id":1, "name":"sample"}
 
 Authentication
 No authentication is implemented in the initial scaffold. Add Spring Security and OAuth2 / JWT as needed for production.
