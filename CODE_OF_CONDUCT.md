@@ -1,0 +1,1 @@
+Be respectful and inclusive. Report any unacceptable behaviour to the maintainers.
