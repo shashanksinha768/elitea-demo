@@ -6,6 +6,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - Initial project scaffold
 - Basic health endpoint
+- Example CRUD endpoints for ExampleItem
 - Maven build configuration
 - Dockerfile and docker-compose
 - CI workflow (GitHub Actions)
