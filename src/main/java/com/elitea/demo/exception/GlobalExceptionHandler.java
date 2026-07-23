@@ -1,0 +1,15 @@
+package com.elitea.demo.exception;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<ApiError> handle(Exception ex) {
+        ApiError error = new ApiError(ex.getMessage(), 500);
+        return ResponseEntity.status(500).body(error);
+    }
+}
