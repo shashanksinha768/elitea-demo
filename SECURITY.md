@@ -1,0 +1,1 @@
+Report security vulnerabilities to the maintainers. No public CVE process is defined for this scaffold.

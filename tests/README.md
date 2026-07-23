@@ -1,0 +1,1 @@
+Tests are located under src/test/java and use Spring Boot Test with JUnit 5. Run with `mvn test`.

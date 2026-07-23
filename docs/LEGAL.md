@@ -1,0 +1,1 @@
+Legal and licensing information: This project is licensed under the MIT License (see LICENSE). No additional legal notices are included.

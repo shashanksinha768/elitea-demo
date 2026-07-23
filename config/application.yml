@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: elitea-capstone-project
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
