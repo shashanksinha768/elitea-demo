@@ -1,0 +1,1 @@
+Static resources for the application can be placed in this directory (served from / by Spring Boot default).
