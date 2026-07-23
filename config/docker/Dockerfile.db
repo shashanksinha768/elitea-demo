@@ -1,0 +1,2 @@
+# This is an example Dockerfile for a database image (not used directly)
+FROM mysql:8.0
