@@ -9,3 +9,9 @@ Thank you for your interest in contributing. This document provides a minimal co
 
 Code of Conduct
 Be respectful and constructive. Any abusive behaviour will not be tolerated.
+
+Maintainers
+- GitHub: shashanksinha768
+
+Communication
+- Issues on GitHub are the primary mechanism to request changes and report bugs.
