@@ -8,6 +8,8 @@ Components
 - Application Entry: com.elitea.demo.EliteaCapstoneApplication
 - Persistence: Spring Data JPA (H2 for dev; MySQL for production)
 - Observability: Spring Boot Actuator (health, info)
+- Repository Layer: com.elitea.demo.repository
+- Model Layer: com.elitea.demo.model
 
 Data Flow
 1. Client sends HTTP request to REST endpoint (e.g., /api/v1/health).
