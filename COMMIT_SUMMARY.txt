@@ -1,0 +1,22 @@
+Files added by automation on branch init/elitea-capstone-structure:
+- README.md (updated to elitea-capstone-project)
+- .gitignore
+- pom.xml
+- src/main/java/com/elitea/demo/EliteaCapstoneApplication.java
+- src/main/java/com/elitea/demo/controller/HealthController.java
+- src/test/java/com/elitea/demo/EliteaCapstoneApplicationTests.java
+- src/main/resources/application.properties
+- Dockerfile
+- docker-compose.yml
+- CHANGELOG.md
+- CONTRIBUTING.md
+- docs/API.md
+- docs/Architecture.md
+- .github/workflows/build.yml
+- LICENSE
+- docs/METADATA.json
+- docs/PLAIN_METADATA.md
+- docs/CONFLUENCE_PLACEHOLDERS.md
+- and many additional docs and source files for a starter project
+
+Branch: init/elitea-capstone-structure-2
